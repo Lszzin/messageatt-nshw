@@ -1,0 +1,69 @@
+## Anime Adventures updated
+[+] Adicionadas configurações específicas por unidade, incluindo imagens das unidades e características.
+[+] Adicionadas opções para ser líder do grupo, entrar na partida de outro jogador e configurações de usuário.
+[+] Adicionada a opção "Vote To Lose".
+[+] Adicionada a configuração de posição de caminho individual para cada unidade.
+[+] Adicionada a opção de posicionar unidades próximas aos amplificadores de outros jogadores.
+[+] Adicionada a forma Griffin.
+[+] Adicionados limites de resistência para Roguelike.
+[+] Adicionado sistema para substituir amplificadores perdidos.
+[+] Aprimorados "Auto Next", "Auto Retry" e "Auto Leave".
+[+] Corrigidos "Auto Sell Skins" e "Equip Best Charms".
+[+] Adicionada prioridade de posicionamento das unidades.
+[+] Adicionado "Auto Raid".
+[+] Adicionado "Auto Sell Charms".
+[+] Adicionados caminhos de mapa com posições individuais para cada mapa.
+[+] Adicionadas opções para unidades, incluindo mira da Megumin, amplificadores e Griffin.
+[+] Adicionada prioridade de cartas com sistema de arrastar e soltar.
+[+] Aprimorada a pesquisa para encontrar Megumin, XP e códigos.
+[+] Ajustado o movimento para caminhar somente até o local de posicionamento das unidades.
+[+] Corrigido o funcionamento de "Avoid Curses" nos altares.
+[+] Removida a aba "Fool's Hunt".
+
+## Tap Simulator REBORN
+[+] Adicionado "Auto Trade".
+[+] Adicionada opção para selecionar a melhor ilha de expedição desbloqueada.
+[+] Adicionado suporte ao Trackstat no Dashboard.
+[+] Aprimorado "Auto Trade" para permitir a troca de pets bloqueados.
+[+] Adicionado "Auto Accept Trades".
+[+] Adicionado suporte a múltiplos parceiros de troca.
+
+## Steal an Egg
+[+] Corrigido o problema que impedia o script de aparecer após a execução.
+[+] Adicionado "Auto Skyfall".
+[+] Adicionado "Auto Storm Rush".
+[+] Adicionado "Auto Trade Sparks".
+[+] Adicionado "Auto Buy Stormy Egg".
+[+] Adicionado "Auto Black Market".
+[+] Adicionados novos Mutation Shards.
+
+## Slayers 2
+[+] Adicionado "Auto Daily Quests".
+[+] Adicionado "Auto Daily Spin".
+[+] Adicionado "Auto Boss Rush".
+[+] Adicionado "Auto Faction Boss".
+[+] Adicionado "Auto Trick or Treat".
+[+] Adicionada a opção "Auto Buy From Kabocha".
+[+] Adicionado "Auto Village Capture".
+[+] Adicionado "Auto Raid" para Mt. Natagumo.
+[+] Adicionado "Auto Hairo".
+[+] Adicionados novos chefes de zona, Hashira e o chefe mundial Spider World Boss em "Auto World Bosses".
+[+] Adicionado seletor de vara de pesca.
+[+] Adicionada lista de prioridades com sistema de arrastar e soltar.
+[+] Atualizado "Auto Fish" para funcionar com o novo sistema de pesca.
+[+] Corrigidas as estações de treinamento.
+[+] Corrigidas as missões de Crow / Muzan (Personal, Pair e Pack Hunts).
+[+] Corrigido o travamento em Ouwigahara ao chegar ao portal.
+[+] Corrigido o combate enquanto um item de missão está equipado na mão.
+[+] Corrigido o problema de ser arrastado junto com inimigos repelidos.
+[+] Corrigido "Trick Or Treat" para não retirar o jogador das atividades Hairo / Spider.
+[+] Corrigido o problema que impedia a abertura dos novos baús de chefes.
+[+] Aprimorado "Trick Or Treat" com tempos de espera dos Kid e contador de doces.
+[+] Ajustadas as filas para funcionarem individualmente, sem preenchimento automático de jogadores.
+
+## Throw food for anima
+[+] Adicionadas arremessadas na Dream Zone.
+[+] Adicionado "Auto Buy Dream Shop".
+[+] Adicionado "Auto Claim Dream Milestones".
+[+] Adicionado "Auto Claim Index Rewards".
+[+] Adicionado "Auto Equip Best Trail".
