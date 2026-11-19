@@ -1,0 +1,42 @@
+Added
+[+] Adicionado suporte completo a múltiplos executores: Potassium, Volt, Delta, Wave, Madium, VVAPI, Athena, Velocity e Solara.
+[+] Adicionado o mecanismo Fast Multi-Attack Chain Engine (Multi Hit).
+[+] Adicionado GetStrikePos (+56 studs) e replicação contínua de velocidade e posição antes dos ataques (135, 0, 135), reduzindo ataques que não acertavam os alvos.
+[+] Adicionada sequência rápida de ataques secundários com intervalos de 0.04s, permitindo atingir outros alvos em hitBatch mesmo com "No Perks" ativado (Stats.Strike = 1).
+[+] Adicionados sistemas completos de Raid, Waves, Luck Rates e Auto Items.
+[+] Adicionada automação completa de Raids, incluindo seleção automática de chefes, direcionamento para partes específicas dos chefes, QTE automático e abertura do Emperor's Trove utilizando a chave.
+[+] Adicionada automação completa de Waves, incluindo votação automática de Ready, Skip e Continue, coleta de Skill Crates, melhorias do HQ, Blessings e Stop At Wave.
+[+] Adicionado cálculo em tempo real do multiplicador de Luck Rates na interface Create e Tracker, com opção de ativar automaticamente a poção 2x Luck.
+[+] Adicionado gerenciamento completo do Lobby, incluindo Artifacts, Memories, Mastery Resonance, Vessels, Serums, Crates, Weekly Convert, Event Shop e Auto Missing Items.
+[+] Ampliada a compatibilidade com executores de PC e dispositivos móveis, melhorando o suporte e a estabilidade em diferentes plataformas.
+[+] Aprimorado o combate, proporcionando ataques mais rápidos, consistentes e com melhor gerenciamento de múltiplos alvos.
+[+] Adicionado o método "Shadow Ban - No (Safe)", com suporte ao Volt.
+[+] Adicionado o método "Attack Titan / Multi Attack", com suporte ao Volt.
+
+Fixed
+[+] Corrigidos os dados enviados ao servidor durante o Prestige e o reroll de Memories, utilizando os valores exatos de Memories.Boosts e as strings .Tag das Memories.Talents com maior quantidade de estrelas, em vez de IDs numéricos.
+[+] Corrigida a sequência de reroll de Memories, executando Replacing -> Select (por .Tag) antes de renovar os Talents e, em seguida, Replacing -> Replace.
+[+] Adicionada validação exata de Shared.XP (CalcLevelMaxXP) e do nível máximo de RanksMod no Tracker UI, Prestige do Lobby e verificações de retorno ao final das missões.
+[+] Corrigida a reserva de Gold durante o Prestige, garantindo que a quantia necessária seja separada antes da ascensão e que as missões de marcos do Prestige sejam resgatadas imediatamente após a ascensão.
+[+] Corrigida a inicialização da interface Vxeze Hub Tracker, movendo sua execução para antes da espera de Loading_Screen e da supressão da interface de FPS Boost, permitindo que apareça imediatamente após a execução.
+[+] Corrigida a sincronização inicial de dados no Main Menu, selecionando diretamente o Slot desejado e aplicando os dados AccData recebidos, sem depender de novas tentativas de Data.Copy.
+[+] Corrigidos os ciclos de Retry entre múltiplas rodadas, identificando reinicializações de rodada e redefinindo CurrentRoundStart, LockedTitan e MissionDone para permitir o farm contínuo a partir da segunda rodada.
+[+] Corrigida a detecção de partidas malsucedidas, utilizando uma verificação de 7 condições para impedir que mortes antecipadas sejam identificadas incorretamente como Mission Completed.
+[+] Corrigidos todos os 40 problemas identificados pelo analisador Luau, eliminando TypeErrors, Warnings e problemas de posicionamento de macros Luraph.
+[+] Corrigida a atualização dos dados da conta em alguns executores.
+[+] Corrigidos valores desatualizados que apareciam ocasionalmente no Tracker.
+[+] Corrigidas as estatísticas de missões no Webhook, que anteriormente apresentavam valores vazios ou zerados.
+[+] Melhorada a precisão da exibição das recompensas no Webhook.
+[+] Corrigidos diversos avisos e pequenos erros gerais.
+
+Update
+[+] Ajustado o GetSafeMinRoundSec para utilizar tempos entre 65s e 75s, conforme o mapa e a dificuldade, mantendo o limite de segurança ShadowBan (>= 65s) e permitindo concluir as partidas dentro dos limites do Time Trial, com bônus de +15% em Gold e XP.
+[+] Aprimorados os ciclos de automação do Lobby.
+[+] Melhoradas as atualizações de Weapon Gear Upgrades, permitindo até 15 tentativas por visita para alcançar imediatamente o maior Grade possível com os recursos disponíveis.
+[+] Aprimorado o desbloqueio de Skill Tree, permitindo até 10 tentativas e suporte à Hotbar vazia com valor "999".
+[+] Aprimorado o Mastery Resonance, permitindo desbloquear até 6 níveis por visita.
+[+] Corrigada a recuperação de Injury para tratar apenas ferimentos ativos.
+[+] Atualizada a compra de Boosts para verificar os temporizadores ativos de Boosts do jogador.
+[+] Adicionada sincronização imediata de ApplyAccountData e ApplySlotData em todas as respostas dos remotes do Lobby, melhorando a precisão das informações.
+[+] Ajustadas as posições padrão de farm e de espera segura para proporcionar execuções mais suaves.
+[+] Aprimoradas as transições entre Mission, Rewards e Retry.
